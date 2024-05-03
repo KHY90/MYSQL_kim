@@ -29,7 +29,7 @@ SELECT
 
 -- 
 SELECT 
-	FIELD('C', 'A', 'B', 'C');
+	FIELD('A', 'A', 'B', 'C');
 
 SELECT 
  	field(orderable_status, 'N', 'Y')

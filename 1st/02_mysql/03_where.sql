@@ -10,7 +10,7 @@ FROM
 WHERE
     orderable_status = 'Y';
     
-SELECT 
+SELECT  
     menu_name, 
     menu_price, 
     orderable_status
