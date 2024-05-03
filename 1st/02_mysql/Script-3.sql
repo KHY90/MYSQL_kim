@@ -43,4 +43,4 @@ select
 	ref_category_code
   from tbl_category
  where ref_category_code is not null;
- 
+
