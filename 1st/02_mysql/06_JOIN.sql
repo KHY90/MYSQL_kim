@@ -93,6 +93,7 @@ SELECT
 -- 넘어서 디스크로까지 넘어가고 이는 성능 저하를 초래한다.
 
 -- HASH JOIN은 등가 조인('=' 연산자를 사용하는 조인)에만 사용할 수 있고 비등가 조인에는 사용할 수 없다.
+  
 SELECT /*+ HASH_JOIN(a) */
     a.menu_name,
     b.category_name
